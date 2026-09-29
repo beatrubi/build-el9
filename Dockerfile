@@ -1,4 +1,4 @@
-FROM rockylinux/rockylinux:9
+FROM docker.io/rockylinux/rockylinux:9
 RUN \
   dnf -y group install "Development Tools" && \
   adduser -c "Build User" -m build
