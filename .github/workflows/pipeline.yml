@@ -3,8 +3,8 @@ name: Build and publich container image
 on: [push, pull_request]
 
 jobs:
-  name: Build and publich container image
   build:
+    name: Build and publich container image
     runs-on: ubuntu-latest
 
     permissions:
